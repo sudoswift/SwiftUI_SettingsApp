@@ -13,13 +13,18 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             List{
-                MyProfileSection()
+                NavigationLink(
+                    destination: ProfileDetailView(),
+                    label: {
+                        MyProfileSection()
+                    })
                 SectionOne()
                 SectionTwo()
                 SectionThree()
             } // Form or List
             .listStyle(GroupedListStyle())
             .navigationTitle("설정")
+            .navigationBarTitleDisplayMode(.inline)
         } // NavigationView
 
     }

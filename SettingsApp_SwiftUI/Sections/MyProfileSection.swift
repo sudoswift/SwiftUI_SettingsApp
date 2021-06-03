@@ -25,7 +25,9 @@ struct MyProfileSection: View {
                         .font(.system(size: 15))
                 }
                 Spacer()
-                Image(systemName: "chevron.forward")
+//                Image(systemName: "chevron.forward")
+//                    .foregroundColor(.secondary)
+                // do not nedd system Image if you use navigationLink. navigationLink make automatically arrow to you View
             } // HStack
         } // Section
     }
