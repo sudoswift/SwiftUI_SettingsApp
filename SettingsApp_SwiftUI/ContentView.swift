@@ -8,10 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var airplaneToggle = false
     var body: some View {
         NavigationView{
             List{
                 MyProfileSection()
+                SectionOne()
             } // Form or List
             .listStyle(GroupedListStyle())
             .navigationTitle("설정")

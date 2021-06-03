@@ -9,13 +9,14 @@ import SwiftUI
 
 struct MyProfileSection: View {
     var body: some View {
-        Section(header: Text("프로필")){
+        Section{
             HStack{
                 Image("MyProfile")
                     .resizable()
-                    .scaledToFit()
+                    .scaledToFill()
                     .clipShape(Circle())
-                    .frame(width: 100, height: 80)
+                    .padding(.trailing)
+                    .frame(width: 70, height: 70)
                 VStack(alignment: .leading){
                     Text("아이번")
                         .fontWeight(.bold)
