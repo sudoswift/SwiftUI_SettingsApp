@@ -45,6 +45,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F1416EB2668F50C001A4A03 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				6F6402112668D8DA00FC6722 /* SectionPreset.swift */,
+				6F6402032668CBF500FC6722 /* MyProfileSection.swift */,
+				6F6402092668D4E400FC6722 /* OneAirplane.swift */,
+				6F6402072668D2F900FC6722 /* SectionOne.swift */,
+				6F6402132668DD5000FC6722 /* SectionTwo.swift */,
+				6F6402152668DF7400FC6722 /* SectionThree.swift */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
 		6F6401E82668C68F00FC6722 = {
 			isa = PBXGroup;
 			children = (
@@ -64,14 +77,9 @@
 		6F6401F32668C68F00FC6722 /* SettingsApp_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				6F1416EB2668F50C001A4A03 /* Sections */,
 				6F6401F42668C68F00FC6722 /* SettingsApp_SwiftUIApp.swift */,
 				6F6401F62668C68F00FC6722 /* ContentView.swift */,
-				6F6402132668DD5000FC6722 /* SectionTwo.swift */,
-				6F6402152668DF7400FC6722 /* SectionThree.swift */,
-				6F6402072668D2F900FC6722 /* SectionOne.swift */,
-				6F6402112668D8DA00FC6722 /* SectionPreset.swift */,
-				6F6402092668D4E400FC6722 /* OneAirplane.swift */,
-				6F6402032668CBF500FC6722 /* MyProfileSection.swift */,
 				6F6401F82668C69000FC6722 /* Assets.xcassets */,
 				6F6401FD2668C69000FC6722 /* Info.plist */,
 				6F6401FA2668C69000FC6722 /* Preview Content */,
