@@ -25,8 +25,13 @@ struct ProfileDetailView: View {
         .padding(.top, 20)
         List{
             OneProfile()
-            SectionPreset(imageColor: .gray, sfName: "cloud", firstName: "iCloud", secondName: "")
-            
+            TwoProfile()
+            Section{
+                Text("로그아웃")
+                    .foregroundColor(.red)
+                    .fontWeight(.bold)
+                    
+            }
         } // List
         .listStyle(GroupedListStyle())
         .navigationTitle("Apple ID")
