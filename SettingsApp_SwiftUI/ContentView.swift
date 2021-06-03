@@ -15,6 +15,7 @@ struct ContentView: View {
             List{
                 MyProfileSection()
                 SectionOne()
+                SectionTwo()
             } // Form or List
             .listStyle(GroupedListStyle())
             .navigationTitle("설정")

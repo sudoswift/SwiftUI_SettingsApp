@@ -20,8 +20,9 @@ struct MyProfileSection: View {
                 VStack(alignment: .leading){
                     Text("아이번")
                         .fontWeight(.bold)
+                        .font(.system(size: 25))
                     Text("Apple ID, iCloud, 미디어 및 구입")
-                        .fontWeight(.bold)
+                        .font(.system(size: 15))
                 }
                 Spacer()
                 Image(systemName: "chevron.forward")
