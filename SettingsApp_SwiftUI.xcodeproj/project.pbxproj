@@ -16,6 +16,7 @@
 		6F64020A2668D4E400FC6722 /* OneAirplane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6402092668D4E400FC6722 /* OneAirplane.swift */; };
 		6F6402122668D8DA00FC6722 /* SectionPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6402112668D8DA00FC6722 /* SectionPreset.swift */; };
 		6F6402142668DD5000FC6722 /* SectionTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6402132668DD5000FC6722 /* SectionTwo.swift */; };
+		6F6402162668DF7400FC6722 /* SectionThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6402152668DF7400FC6722 /* SectionThree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		6F6402092668D4E400FC6722 /* OneAirplane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneAirplane.swift; sourceTree = "<group>"; };
 		6F6402112668D8DA00FC6722 /* SectionPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionPreset.swift; sourceTree = "<group>"; };
 		6F6402132668DD5000FC6722 /* SectionTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTwo.swift; sourceTree = "<group>"; };
+		6F6402152668DF7400FC6722 /* SectionThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				6F6401F42668C68F00FC6722 /* SettingsApp_SwiftUIApp.swift */,
 				6F6401F62668C68F00FC6722 /* ContentView.swift */,
 				6F6402132668DD5000FC6722 /* SectionTwo.swift */,
+				6F6402152668DF7400FC6722 /* SectionThree.swift */,
 				6F6402072668D2F900FC6722 /* SectionOne.swift */,
 				6F6402112668D8DA00FC6722 /* SectionPreset.swift */,
 				6F6402092668D4E400FC6722 /* OneAirplane.swift */,
@@ -155,6 +158,7 @@
 			files = (
 				6F6401F72668C68F00FC6722 /* ContentView.swift in Sources */,
 				6F6402122668D8DA00FC6722 /* SectionPreset.swift in Sources */,
+				6F6402162668DF7400FC6722 /* SectionThree.swift in Sources */,
 				6F6401F52668C68F00FC6722 /* SettingsApp_SwiftUIApp.swift in Sources */,
 				6F6402042668CBF500FC6722 /* MyProfileSection.swift in Sources */,
 				6F6402142668DD5000FC6722 /* SectionTwo.swift in Sources */,
