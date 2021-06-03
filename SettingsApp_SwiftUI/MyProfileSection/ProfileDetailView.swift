@@ -24,7 +24,9 @@ struct ProfileDetailView: View {
         } // VStack
         .padding(.top, 20)
         List{
+            OneProfile()
             SectionPreset(imageColor: .gray, sfName: "cloud", firstName: "iCloud", secondName: "")
+            
         } // List
         .listStyle(GroupedListStyle())
         .navigationTitle("Apple ID")
