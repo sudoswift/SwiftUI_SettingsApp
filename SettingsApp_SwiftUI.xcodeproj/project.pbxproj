@@ -11,6 +11,7 @@
 		6F6401F72668C68F00FC6722 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6401F62668C68F00FC6722 /* ContentView.swift */; };
 		6F6401F92668C69000FC6722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F6401F82668C69000FC6722 /* Assets.xcassets */; };
 		6F6401FC2668C69000FC6722 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F6401FB2668C69000FC6722 /* Preview Assets.xcassets */; };
+		6F6402042668CBF500FC6722 /* MyProfileSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6402032668CBF500FC6722 /* MyProfileSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		6F6401F82668C69000FC6722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F6401FB2668C69000FC6722 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6F6401FD2668C69000FC6722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F6402032668CBF500FC6722 /* MyProfileSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				6F6401F42668C68F00FC6722 /* SettingsApp_SwiftUIApp.swift */,
 				6F6401F62668C68F00FC6722 /* ContentView.swift */,
+				6F6402032668CBF500FC6722 /* MyProfileSection.swift */,
 				6F6401F82668C69000FC6722 /* Assets.xcassets */,
 				6F6401FD2668C69000FC6722 /* Info.plist */,
 				6F6401FA2668C69000FC6722 /* Preview Content */,
@@ -140,6 +143,7 @@
 			files = (
 				6F6401F72668C68F00FC6722 /* ContentView.swift in Sources */,
 				6F6401F52668C68F00FC6722 /* SettingsApp_SwiftUIApp.swift in Sources */,
+				6F6402042668CBF500FC6722 /* MyProfileSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,13 +11,9 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             List{
-                Section{
-                    HStack{
-                        Image(systemName: "flame.fill")
-                            .font(.system(size: 50))
-                    }
-                } // Section
-            } // Form
+                MyProfileSection()
+            } // Form or List
+            .listStyle(GroupedListStyle())
             .navigationTitle("설정")
         } // NavigationView
 
