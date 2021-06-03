@@ -9,8 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+            List{
+                Section{
+                    HStack{
+                        Image(systemName: "flame.fill")
+                            .font(.system(size: 50))
+                    }
+                } // Section
+            } // Form
+            .navigationTitle("설정")
+        } // NavigationView
+
     }
 }
 
