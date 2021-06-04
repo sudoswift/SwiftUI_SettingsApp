@@ -13,7 +13,7 @@ struct SectionOne: View {
         Section{
             OneAirplane()
             NavigationLink(
-                destination: Text("Wi-Fi"),
+                destination: wifiView(),
                 label: {
                     SectionPreset(imageColor: .blue, sfName: "wifi", firstName: "Wi-Fi", secondName: "연결 안 됨")
                 })
