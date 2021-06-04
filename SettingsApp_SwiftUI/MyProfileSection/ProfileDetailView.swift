@@ -30,7 +30,6 @@ struct ProfileDetailView: View {
                 Text("로그아웃")
                     .foregroundColor(.red)
                     .fontWeight(.bold)
-                    
             }
         } // List
         .listStyle(GroupedListStyle())

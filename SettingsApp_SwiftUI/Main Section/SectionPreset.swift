@@ -27,8 +27,6 @@ struct SectionPreset: View {
             Spacer()
             Text(secondName)
                 .foregroundColor(.secondary)
-            Image(systemName: "chevron.forward")
-                .foregroundColor(.secondary)
         }
     }
 }

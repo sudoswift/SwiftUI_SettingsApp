@@ -17,6 +17,7 @@ struct SectionOne: View {
             SectionPreset(imageColor: .green, sfName: "antenna.radiowaves.left.and.right", firstName: "셀룰러", secondName: "")
             SectionPreset(imageColor: .green, sfName: "personalhotspot", firstName: "개인용 핫스팟", secondName: "끔")
             SectionPreset(imageColor: .blue, sfName: "sparkle", firstName: "VPN", secondName: "연결 안 됨")
+            Label("Wi-Fi", systemImage: "wifi")
         } //Section
     }
 }

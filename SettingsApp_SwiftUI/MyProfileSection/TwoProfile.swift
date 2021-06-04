@@ -10,10 +10,26 @@ import SwiftUI
 struct TwoProfile: View {
     var body: some View {
         Section{
-            SectionPreset(imageColor: .gray, sfName: "cloud", firstName: "iCloud", secondName: "")
-            SectionPreset(imageColor: .blue, sfName: "applelogo", firstName: "미디어 및 구입 항목", secondName: "")
-            SectionPreset(imageColor: .gray, sfName: "mappin.and.ellipse", firstName: "나의 찾기", secondName: "")
-            SectionPreset(imageColor: .gray, sfName: "person.3", firstName: "가족 공유", secondName: "더 알아보기")
+            NavigationLink(
+                destination: Text("iCloud"),
+                label: {
+                    SectionPreset(imageColor: .gray, sfName: "cloud", firstName: "iCloud", secondName: "")
+                })
+            NavigationLink(
+                destination: Text("미디어 및 구입 항목"),
+                label: {
+                    SectionPreset(imageColor: .blue, sfName: "applelogo", firstName: "미디어 및 구입 항목", secondName: "")
+                })
+            NavigationLink(
+                destination: Text("나의 찾기"),
+                label: {
+                    SectionPreset(imageColor: .gray, sfName: "mappin.and.ellipse", firstName: "나의 찾기", secondName: "")
+                })
+            NavigationLink(
+                destination: Text("가족 공유"),
+                label: {
+                    SectionPreset(imageColor: .gray, sfName: "person.3", firstName: "가족 공유", secondName: "더 알아보기")
+                })
         }
 
     }
