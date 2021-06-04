@@ -10,7 +10,7 @@ import SwiftUI
 struct wifiView: View {
     @State var isWified: Bool = true
     var body: some View {
-        
+        wifiToggleTrueView()
     }
 }
 

@@ -22,6 +22,7 @@ struct OneAirplane: View {
             Toggle(isOn: $airplaneToggle){
                 Text("에어플레인 모드")
             }
+            .toggleStyle(SwitchToggleStyle(tint: .orange))
         } // Airplane HStack
     }
 }
