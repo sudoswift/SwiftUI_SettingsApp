@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6F3619622669BA3F0090B2D6 /* wifiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3619612669BA3F0090B2D6 /* wifiView.swift */; };
 		6F3619642669BE800090B2D6 /* wifiToggleTrueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3619632669BE800090B2D6 /* wifiToggleTrueView.swift */; };
-		6F3619662669BFA30090B2D6 /* wifiToggleFalseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3619652669BFA30090B2D6 /* wifiToggleFalseView.swift */; };
 		6F6401F52668C68F00FC6722 /* SettingsApp_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6401F42668C68F00FC6722 /* SettingsApp_SwiftUIApp.swift */; };
 		6F6401F72668C68F00FC6722 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6401F62668C68F00FC6722 /* ContentView.swift */; };
 		6F6401F92668C69000FC6722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F6401F82668C69000FC6722 /* Assets.xcassets */; };
@@ -29,7 +28,6 @@
 /* Begin PBXFileReference section */
 		6F3619612669BA3F0090B2D6 /* wifiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wifiView.swift; sourceTree = "<group>"; };
 		6F3619632669BE800090B2D6 /* wifiToggleTrueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wifiToggleTrueView.swift; sourceTree = "<group>"; };
-		6F3619652669BFA30090B2D6 /* wifiToggleFalseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wifiToggleFalseView.swift; sourceTree = "<group>"; };
 		6F6401F12668C68F00FC6722 /* SettingsApp_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SettingsApp_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F6401F42668C68F00FC6722 /* SettingsApp_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsApp_SwiftUIApp.swift; sourceTree = "<group>"; };
 		6F6401F62668C68F00FC6722 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				6F3619612669BA3F0090B2D6 /* wifiView.swift */,
-				6F3619652669BFA30090B2D6 /* wifiToggleFalseView.swift */,
 				6F3619632669BE800090B2D6 /* wifiToggleTrueView.swift */,
 			);
 			path = WiFiDetailSection;
@@ -213,7 +210,6 @@
 				6FB3207C266938B40045F033 /* OneProfile.swift in Sources */,
 				6F64020A2668D4E400FC6722 /* OneAirplane.swift in Sources */,
 				6F6402082668D2F900FC6722 /* SectionOne.swift in Sources */,
-				6F3619662669BFA30090B2D6 /* wifiToggleFalseView.swift in Sources */,
 				6FF768FE2669397200F811ED /* TwoProfile.swift in Sources */,
 				6FB32079266936C40045F033 /* SectionDefault.swift in Sources */,
 			);

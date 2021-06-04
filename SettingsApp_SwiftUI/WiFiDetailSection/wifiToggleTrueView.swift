@@ -15,6 +15,7 @@ struct wifiToggleTrueView: View {
                 Toggle(isOn: $isWified, label: {
                     Text("Wi-Fi")
                 }) // Wifi Toggle
+                .toggleStyle(SwitchToggleStyle(tint: .blue))
             } // Section
             .navigationTitle("Wi-Fi")
             .navigationBarTitleDisplayMode(.inline)
