@@ -12,12 +12,31 @@ struct SectionOne: View {
     var body: some View {
         Section{
             OneAirplane()
-            SectionPreset(imageColor: .blue, sfName: "wifi", firstName: "Wi-Fi", secondName: "연결 안 됨")
-            SectionPreset(imageColor: .blue, sfName: "dollarsign.circle", firstName: "Bluetooth", secondName: "켬")
-            SectionPreset(imageColor: .green, sfName: "antenna.radiowaves.left.and.right", firstName: "셀룰러", secondName: "")
-            SectionPreset(imageColor: .green, sfName: "personalhotspot", firstName: "개인용 핫스팟", secondName: "끔")
-            SectionPreset(imageColor: .blue, sfName: "sparkle", firstName: "VPN", secondName: "연결 안 됨")
-            Label("Wi-Fi", systemImage: "wifi")
+            NavigationLink(
+                destination: Text("Wi-Fi"),
+                label: {
+                    SectionPreset(imageColor: .blue, sfName: "wifi", firstName: "Wi-Fi", secondName: "연결 안 됨")
+                })
+            NavigationLink(
+                destination: Text("Bluetooth"),
+                label: {
+                    SectionPreset(imageColor: .blue, sfName: "dollarsign.circle", firstName: "Bluetooth", secondName: "켬")
+                })
+            NavigationLink(
+                destination: Text("Cellular"),
+                label: {
+                    SectionPreset(imageColor: .green, sfName: "antenna.radiowaves.left.and.right", firstName: "셀룰러", secondName: "")
+                })
+            NavigationLink(
+                destination: Text("개인용 핫스팟"),
+                label: {
+                    SectionPreset(imageColor: .green, sfName: "personalhotspot", firstName: "개인용 핫스팟", secondName: "끔")
+                })
+            NavigationLink(
+                destination: Text("VPN"),
+                label: {
+                    SectionPreset(imageColor: .blue, sfName: "sparkle", firstName: "VPN", secondName: "연결 안 됨")
+                })
         } //Section
     }
 }

@@ -33,6 +33,7 @@ struct ProfileDetailView: View {
             }
         } // List
         .listStyle(GroupedListStyle())
+        .navigationBarTitleDisplayMode(.inline)
         .navigationTitle("Apple ID")
     }
 }

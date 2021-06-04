@@ -24,7 +24,6 @@ struct ContentView: View {
             } // Form or List
             .listStyle(GroupedListStyle())
             .navigationTitle("설정")
-            .navigationBarTitleDisplayMode(.inline)
         } // NavigationView
 
     }
