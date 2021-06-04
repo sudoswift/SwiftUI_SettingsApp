@@ -19,6 +19,7 @@ struct wifiToggleTrueView: View {
             } // Section
             .navigationTitle("Wi-Fi")
             .navigationBarTitleDisplayMode(.inline)
+            .animation(.easeInOut)
             if isWified{
                 Section(header: Text("네트워크")){
                     SectionDefault(mainText: "someWifiOne", scText: "wi-fi")
@@ -41,6 +42,7 @@ struct wifiToggleTrueView: View {
                 } // Section
                 .navigationTitle("Wi-Fi")
                 .navigationBarTitleDisplayMode(.inline)
+                .animation(.easeInOut)
             }
         } // List
         .listStyle(GroupedListStyle())
