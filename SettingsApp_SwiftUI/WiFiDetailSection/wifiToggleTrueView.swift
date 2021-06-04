@@ -11,7 +11,7 @@ struct wifiToggleTrueView: View {
     @State var isWified: Bool = true
     var body: some View {
         List{
-            Section(footer: Text("제어 센터에서 새로운 Wi-Fi 네트워크 연결이 꺼져 있습니다.")){
+            Section(footer: Text(isWified ? "제어 센터에서 새로운 Wi-Fi 네트워크 연결이 꺼져 있습니다." : "Apple Watch로 잠금 해제하거나 AirDrop, AirPlay 및 더 정확한 위치 서비스를 사용하려면 Wi-Fi가 필요합니다.")){
                 Toggle(isOn: $isWified, label: {
                     Text("Wi-Fi")
                 }) // Wifi Toggle
